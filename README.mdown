@@ -8,7 +8,7 @@ Usage
 
 	try {
 		$verifier = new \broserid\Verifier('example.org');
-		$response = $verifier->($assertion);
+		$response = $verifier->verify($assertion);
 		print_r($response); // array('email' => 'joe@example.org', 'audience' => 'example.org', ...)
 	} catch (Exception $e) {
 		// Something went wrong
