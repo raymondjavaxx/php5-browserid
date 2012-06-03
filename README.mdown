@@ -6,10 +6,14 @@ PHP5-BrowserID
 Usage
 -----
 
+	$assertion = get_assertion_safely_from_request();
 	try {
-		$verifier = new \broserid\Verifier('example.org');
+		$verifier = new \browserid\Verifier('yoursite.org');
 		$response = $verifier->verify($assertion);
-		print_r($response); // array('email' => 'joe@example.org', 'audience' => 'example.org', ...)
+		if ($response->status == "okay") {
+			$_SESSION['email'] = $response->email;
+			...
+		}
 	} catch (Exception $e) {
 		// Something went wrong
 	}
