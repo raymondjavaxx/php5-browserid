@@ -2,7 +2,7 @@
 /**
  * PHP5-BrowserID
  *
- * Copyright (c) 2011 Ramon Torres
+ * Copyright (c) 2011 Ramon Torres & 2012 EK
  *
  * Licensed under the MIT License
  * Redistributions of files must retain the above copyright notice.
