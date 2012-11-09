@@ -23,7 +23,7 @@ class Verifier {
 	/**
 	 * The BrowserID's assertion verification service endpoint
 	 */
-	const ENDPOINT = 'https://browserid.org/verify';
+	const ENDPOINT = 'https://verifier.login.persona.org/verify';
 
 	/**
 	 * The hostname and optional port of your site
