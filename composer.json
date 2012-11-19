@@ -1,0 +1,17 @@
+{
+	"name": "browserid/browserid",
+	"type": "library",
+	"description": "BrowserID lib for PHP >= 5.3",
+	"keywords": ["BrowserID", "Persona", "Authentication", "Auth"],
+	"homepage": "https://github.com/raymondjavaxx/php5-browserid",
+	"license":"MIT",
+	"authors":[
+		{
+			"name": "Ramon Torres",
+			"email": "raymondjavaxx@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {"browserid": "libraries/"}
+	}
+}
